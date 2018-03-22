@@ -1,7 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 export default function Results(props) {
-  return (
-    <p>{props.calcResults()}</p>
-  )
+  return <p>{props.calcResults()}</p>;
 }

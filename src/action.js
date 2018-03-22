@@ -9,7 +9,7 @@ export const hideGameMessage  = () => ({
 })
 
 export const ANALYZE_CHOICE  =  "ANALYZE_CHOICE"
-export const analyzeChoice  = (userInput) => ({
+export const analyzeChoice  = userInput => ({
   type: ANALYZE_CHOICE ,
   userInput
 })
