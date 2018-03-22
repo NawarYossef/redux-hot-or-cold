@@ -1,0 +1,15 @@
+.guesses {
+  font-size: 1.4em;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.current-guess {
+  background: dodgerblue;
+  width: 10px;
+  border-radius: 3px;
+  padding: 6px;
+  margin-left: 5px;
+  /* text-align: center; */
+}

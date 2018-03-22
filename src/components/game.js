@@ -45,7 +45,7 @@ export class Game extends React.Component {
           <h1>HOT or COLD</h1>
           <section className="game-wrapper col-4">
             <ResultDisplay />
-            <input ref={input => (this.textInput = input)} placeholder={"Enter Your Guess"}/>
+            <input ref={input => (this.textInput = input)} placeholder={"Enter Your Guess"} require={"true"}/>
             <GuessButton />
             <NumberOfGuesses />
             <ShowAllGuesses />

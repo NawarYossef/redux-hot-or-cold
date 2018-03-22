@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 
+import "./styles/grid.css";
+import "./number-of-guesses.css";
+
 function NumberOfGuesses(props) {
   return (
     <div>
-      <p>Guess: #{props.userChoices}!</p>
+      <p><span className="guess-word">Guess #</span>{props.userChoices}!</p>
     </div>
   );
 }
