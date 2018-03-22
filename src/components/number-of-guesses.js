@@ -7,13 +7,16 @@ import "./number-of-guesses.css";
 function NumberOfGuesses(props) {
   return (
     <div>
-      <p><span className="guess-word">Guess #</span>{props.userChoices}!</p>
+      <p>
+        <span className="guess-word">Guess #</span>
+        <span className={"guess-counter"}>{props.choiceCounter}</span>
+      </p>
     </div>
   );
 }
 
 const mapStateToProps = state => ({
-  userChoices: state.userChoices
+  choiceCounter: state.choiceCounter
 });
 
 export default connect(mapStateToProps)(NumberOfGuesses);

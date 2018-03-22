@@ -1,3 +1,9 @@
-.guess-word {
+.guess-word  {
   font-size: 2em;
+  /* color: #ffffff; */
+}
+
+.guess-counter {
+  font-size: 3em;
+  color: #f0a84a;
 }
