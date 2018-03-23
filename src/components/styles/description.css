@@ -1,0 +1,44 @@
+.description {
+  margin-top: 200px;
+  padding: 15px 0px; 
+}
+
+.description ul {
+  text-align: left;
+  width: 60%;
+  margin: 0 auto;
+  color: #d5d5d5;
+  font-size: 1.1em;
+}
+
+.description li {
+  padding: 5px;
+}
+
+.describe-header,
+.ready-question-text {
+  color: #ff881e;
+}
+
+.header-text {
+  color: #5be179;
+  font-size: 1.5em;
+  margin: 0px;
+}
+
+.description button {
+  padding: 5px 25px;
+  font-size: 1.1em;
+  background-color: #5be179;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  -webkit-transition: background-color 0.7s ease-out;
+  -moz-transition: background-color 0.7s ease-out;
+  transition: background-color 0.7s ease-out;
+}
+
+.description button:hover {
+  background: rgb(241, 114, 131);
+  cursor: pointer;
+}

@@ -14,7 +14,8 @@ form h1 {
   margin: 0 auto;
   padding-top: 170px;
   color: white;
-  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 6px 1px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb,
+    0 6px 1px rgba(0, 0, 0, 0.1);
 }
 
 .game-wrapper {
@@ -40,17 +41,19 @@ input {
   outline: none;
 }
 
-::-webkit-input-placeholder { 
+::-webkit-input-placeholder {
   color: #21232c;
-
 }
-::-moz-placeholder { /* Firefox 19+ */
+::-moz-placeholder {
+  /* Firefox 19+ */
   font-size: 2em;
 }
-:-ms-input-placeholder { /* IE 10+ */
+:-ms-input-placeholder {
+  /* IE 10+ */
   font-size: 2em;
 }
-:-moz-placeholder { /* Firefox 18- */
+:-moz-placeholder {
+  /* Firefox 18- */
   font-size: 2em;
 }
 
@@ -62,3 +65,76 @@ i {
   padding-left: 3px;
   color: #e952fd;
 }
+
+@media screen and (max-width: 320px) {
+  form h1 {
+    font-size: 1.4em;
+  }
+
+  input {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  form h1 {
+    font-size: 1.4em;
+  }
+
+  input {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  form h1 {
+    font-size: 1.4em;
+  }
+
+  input {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 600px) {
+  form h1 {
+    font-size: 1.4em;
+  }
+
+  input {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  form h1 {
+    font-size: 2em;
+  }
+
+  input {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  form h1 {
+    font-size: 2.2em;
+  }
+
+  input {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+  form h1 {
+    font-size: 3em;
+  }
+
+  input {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  form h1 {
+    font-size: 3em;
+  }
+}
+

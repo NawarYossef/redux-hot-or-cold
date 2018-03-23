@@ -20,7 +20,7 @@
 header .game-rules {
   float: left;
   padding-left: 20px;
-  font: normal 2em 'Passion One', cursive;
+  font: normal 2em "Passion One", cursive;
   margin: 0px;
   color: #ffffff;
   position: absolute;
@@ -30,4 +30,54 @@ header .game-rules {
 
 header .game-rules:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  header .game-rules {
+    position: absolute;
+    left: 0;
+    top: 26%;
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  header .game-rules {
+    position: absolute;
+    left: 0;
+    top: 26%;
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  header .game-rules {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 600px) {
+  header .game-rules {
+    position: absolute;
+    left: 0;
+    top: 23%;
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  header .game-rules {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+  header .game-rules {
+    position: absolute;
+    left: 0;
+    top: 8%;
+    font-size: 1.6em;
+  }
 }
