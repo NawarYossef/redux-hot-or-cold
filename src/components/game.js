@@ -32,7 +32,7 @@ export class Game extends React.Component {
       alert("Please Choose A Number");
       return false;
     } else if (this.props.userChoices.includes(userInput)) {
-      alert("You already made that guessed that number");
+      alert("You already guessed that number");
       return false;
     }
     return true;

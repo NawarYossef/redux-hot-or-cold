@@ -26,7 +26,7 @@ const showResultsMessage = (userInput, state) => {
   } else if (guess >= 1) {
     return "You're Hot!";
   } else {
-    return "You got it!";
+    return "You Got It!";
   }
 };
 

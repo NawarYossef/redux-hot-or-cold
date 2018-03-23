@@ -9,7 +9,8 @@ function Description(props) {
   const rules = [
     "I pick a random secret number between 1 to 100 and keep it hidden.",
     "You need to guess until you can find the hidden secret number.",
-    'You will get feedback on how close ("hot") or far ("cold") your guess is.'
+    'You will get feedback on how close ("hot") or far ("cold") your guess is.',
+    'When you get the number you will see the message "You Got It".'
   ];
   return (
     <div className={"description "}>
