@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./styles/grid.css";
-import "./guess-button.css";
+import "./styles/guess-button.css";
 
 export default function GuessButton(props) {
   return (

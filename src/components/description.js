@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import "./description.css";
 import { connect } from "react-redux";
 import { showGameMessage, hideGameMessage } from "../action";
 
 import "./styles/grid.css"
-import "./description.css"
+// import "./styles/description.css"
 
 function Description(props) {
   const rules = [

@@ -15,17 +15,24 @@ const initialState = {
 };
 
 const showResultsMessage = (userInput, state) => {
-  if (Number(userInput) + 10 === state.computerChoice) {
-    return "Kinda Hot";
-  } else if (Number(userInput) === state.computerChoice) {
-    return "Hot";
-  } else if (Number(userInput) !== state.computerChoice) {
-    return "Cold";
+  const guess = Math.abs(initialState.computerChoice - Number(userInput));
+
+  if (guess >= 50) {
+    return  "You're Ice Cold...";
+  } else if (guess >= 30) {
+    return "You're Cold...";
+  } else if (guess >= 10) {
+    return  "You're Warm.";
+  } else if (guess >= 1) {
+    return "You're Hot!";
+  } else {
+    return "You got it!";
   }
 };
 
+
+
 export default function reducer(state = initialState, action) {
-  console.log(state.computerChoice);
   if (action.type === "SHOW_GAME_MESSAGE") {
     return Object.assign({}, state, {
       gameDescription: "show"

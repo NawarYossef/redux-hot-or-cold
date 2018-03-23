@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 import { showGameMessage, hideGameMessage } from "../action";
 
 import "./styles/grid.css"
-import "./app.css";
+import "./styles/app.css";
 
 function App(props) {
   if (props.gameDescription === "hide") {

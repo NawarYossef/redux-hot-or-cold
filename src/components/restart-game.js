@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { restartGame } from "../action";
 
 import "./styles/grid.css"
-import "./restart-game.css";
+import "./styles/restart-game.css";
 
 function RestartGame(props) {
   return (

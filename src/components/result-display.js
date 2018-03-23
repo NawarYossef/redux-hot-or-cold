@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import "./result-display.css";
+import "./styles/result-display.css";
 import { connect } from "react-redux";
 
 import "./styles/grid.css";
-import "./result-display.css";
+import "./styles/result-display.css";
 
 function ResultDisplay(props) {
   return (

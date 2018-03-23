@@ -45,11 +45,21 @@ export class Game extends React.Component {
           <h1>HOT or COLD</h1>
           <section className="game-wrapper col-4">
             <ResultDisplay />
-            <input ref={input => (this.textInput = input)} placeholder={"Enter Your Guess"} require={"true"}/>
+            <input
+              ref={input => (this.textInput = input)}
+              placeholder={"Enter Your Guess"}
+              require={"true"}
+            />
             <GuessButton />
             <NumberOfGuesses />
             <ShowAllGuesses />
           </section>
+          <div className={"credits"}>
+          <p>
+            <span className={"made-with-text"}>Made with</span>
+            <i className="fa fa-heart fa created-by-icon" aria-hidden="true" /> By Nawar
+          </p>
+        </div>
         </form>
         <RestartGame />
       </div>

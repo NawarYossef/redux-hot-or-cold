@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 
 import "./styles/grid.css";
-import "./show-all-guesses.css";
+import "./styles/show-all-guesses.css";
 
 function ShowAllGuesses(props) {
-  const userChoices = props.userChoices.map(choice => {
-    return <span className="current-guess">{choice + " "}</span>;
+  const userChoices = props.userChoices.map((choice, idx) => {
+    return <span key={idx} className="current-guess">{choice + " "}</span>;
   });
   return (
     <div>

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 
 import "./styles/grid.css";
-import "./number-of-guesses.css";
+import "./styles/number-of-guesses.css";
 
 function NumberOfGuesses(props) {
   return (
